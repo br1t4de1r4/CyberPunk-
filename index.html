@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Projeto CyberPunk</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>CyberPunk</h1>
+    </header>
+    <main class="personagens-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./src/imagens/seta.png" alt="seta para voltar a imagem"/>
+        </button>
+
+        <ul class="lista-personagens">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">David Martinez</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/personagen1.jpg" alt="David Martinez"/>
+
+                <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    O jovem David passa por situações bem ruins na Academia Arasaka e acaba indo parar nas ruas de
+                    Santo Domingo, com um poderoso implante Sandevistan de uso militar em suas costas e atraindo a
+                    atenção das gangues de Night City.
+                </p>
+            </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <h2 class="nome">Lucy</h2>
+
+                <img class="imagem-personagem" src="./src/imagens/lucy.jpg" alt="Lucy">
+
+                <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    Uma netrunner de Night City, Lucy é introvertida e não fala sobre o seu passado. Ela parece
+                    inocente, mas não pensa duas vezes antes de matar alguém que a incomode. Ela faz parte da gangue
+                    de mercenários de Maine.
+                </p>
+            </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Maine</h2>
+                <img class="imagem-personagem" src="./src/imagens/personagem3.jpg" alt="Maine">
+                <div class="descricao">
+                <h3 class="titulo">Descrição</h3>
+                <p class="texto">
+                    O grandalhão Maine era um soldado antes de se tornar um mercenário em Night City. Veterano do
+                    crime, Maine sonha com o "grande golpe", mas valoriza a amizade de sua gangue mais do que a
+                    glória.
+                </p>
+            </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./src/imagens/seta.png" alt="seta para avançar a imagem">
+        </button>
+    </main>
+    <script src="./src/js/scrips.js"></script>
+
+</body>
+
+</html>
